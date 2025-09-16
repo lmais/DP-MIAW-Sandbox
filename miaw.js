@@ -38,3 +38,25 @@ window.addEventListener("onEmbeddedMessagingReady", e => {
     },  
   });
 });
+
+
+function launchChat() {
+	embeddedservice_bootstrap.utilAPI.launchChat()
+		.then(() => {
+			// Success handler used to perform actions
+			// when the chat client launches successfully.
+			// For example, create a method that disables the launch chat button.
+			disableLaunchChatButton();
+		}).catch(() => {
+			// Error handler used to perform actions
+			// if the chat client fails to launch.
+			// For example, create a method that hides the launch chat button.
+			hideLaunchChatButton();
+		}).finally(() => {
+			// Finally handler used to perform any clean-up actions
+			// regardless of whether the chat client launches successfully or not.
+			// For example, create a method that logs the user’s attempt to chat.
+			logEndUserAttemptToChat();
+		});
+}
+
