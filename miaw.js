@@ -42,5 +42,10 @@ window.addEventListener("onEmbeddedMessagingReady", e => {
 
 function launchChat() {
 	embeddedservice_bootstrap.utilAPI.launchChat();
-}
+};
+
+function hideChat(){
+	const myButton = document.getElementById('launchChatButton');
+	myButton.style.display = 'none';
+};
 
