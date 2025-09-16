@@ -48,3 +48,6 @@ function hideChat(){
 	embeddedservice_bootstrap.utilAPI.hideChatButton();
 };
 
+function showChat(){
+	embeddedservice_bootstrap.utilAPI.showChatButton();
+};
