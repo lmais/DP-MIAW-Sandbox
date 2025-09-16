@@ -45,7 +45,6 @@ function launchChat() {
 };
 
 function hideChat(){
-	const myButton = document.getElementById('launchChatButton');
-	myButton.style.display = 'none';
+	embeddedservice_bootstrap.utilAPI.hideChatButton();
 };
 
