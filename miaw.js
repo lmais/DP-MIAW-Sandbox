@@ -4,8 +4,8 @@
 			embeddedservice_bootstrap.settings.chatButtonPosition = "150px,150px";
    			embeddedservice_bootstrap.init(
 				'00DU8000004mTYT',
-				'RSA_Chat_MIAW',
-				'https://softerware--full.sandbox.my.site.com/ESWRSAChat1755285610398',
+				'DP_Chat',
+				'https://softerware--full.sandbox.my.site.com/ESWDPChat1655493128387',
 				{
 					scrt2URL: 'https://softerware--full.sandbox.my.salesforce-scrt.com'
 				}
