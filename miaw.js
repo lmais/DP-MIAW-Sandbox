@@ -4,8 +4,8 @@
 			embeddedservice_bootstrap.settings.chatButtonPosition = "150px,150px";
    			embeddedservice_bootstrap.init(
 				'00DU8000004mTYT',
-				'DP_Chat',
-				'https://softerware--full.sandbox.my.site.com/ESWDPChat1655493128387',
+				'GiveCloud_Express_Chat_1',
+				'https://softerware--full.sandbox.my.site.com/ESWGiveCloudExpressChat1759417377952',
 				{
 					scrt2URL: 'https://softerware--full.sandbox.my.salesforce-scrt.com'
 				}
