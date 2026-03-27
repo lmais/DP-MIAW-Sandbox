@@ -1,11 +1,11 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-			embeddedservice_bootstrap.settings.chatButtonPosition = "150px,150px";
-   			embeddedservice_bootstrap.init(
-				'00DU8000004mTYT',
-				'GiveCloud_Express_Chat_1',
-				'https://softerware--full.sandbox.my.site.com/ESWGiveCloudExpressChat1759417377952',
+
+			embeddedservice_bootstrap.init(
+				'00DVa000005O3hp',
+				'DP_Chat',
+				'https://softerware--full.sandbox.my.site.com/ESWDPChat1655493128387',
 				{
 					scrt2URL: 'https://softerware--full.sandbox.my.salesforce-scrt.com'
 				}
